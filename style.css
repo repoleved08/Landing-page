@@ -6,17 +6,155 @@
     box-sizing: border-box;
     font-family: system-ui, sans-serif;
 }
-.container{
-    max-width: 960px;
-    margin: 100px auto;
-    padding: 10px;
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.f-container{
+    background-image: url(./images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 102vh;
+    position: relative;
 }
-.item{
-    padding: 10px;
-    border: 1px solid greenyellow;
-    font-size: 20px;
-    background-color: goldenrod;
+.f-container::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.container{
+    margin: 0% 13% 0% 13%;
+    padding-top: 2%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+/* Navbar */
+.nav-start{
+    display: flex;
+    text-align: center;
+}
+.nav-end ul{
+    display: flex;
+}
+.logo h3{
+    color: white;
+    margin-right: 4rem;
+    font-size: 26px;
+    margin-top: -5px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    margin-left: 15px;
+}
+.nav-end ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.links ul li, .nav-end ul li {
+    list-style: none;
+}
+.btn-1{
+    background-color: rgb(67, 187, 235);
+    border-radius: 4px;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-top: -7px;
+    width: 180px;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Top Content */
+.top-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+.heading{
+    padding-top: 140px;
+    padding-bottom: 30px;
+}
+.heading h1{
+    font-size: 70px;
+    color: white;
+}
+.p-1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.p-1 p{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+#quote{
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;
+    background-color: rgb(67, 187, 235);
+    cursor: pointer;
+    border: none;
+
+}
+#learn-m{
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+#quote a, #learn-m a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Boxes */
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34%;
+}
+.box-1{
+    padding: 40px;
+    width: 350px;
+    height: 185px;
+    background-color: rgb(231, 235, 231);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+.box-2{
+    padding: 40px;
+    width: 350px;
+    margin-left: 10px;
+    height: 185px;
+    background-color: rgb(240, 243, 240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+.box-3{
+    padding: 40px;
+    width: 350px;
+    height: 185px;
+    margin-left: 10px;
+    background-color: rgb(67, 187, 235);
+}
+.box-coonteent h2, .box-conteent h2, .box-content h2{
+    margin-top: 15px;
 }
