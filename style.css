@@ -384,6 +384,7 @@ input:focus{
     margin: -10% 30% 5% 30%;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.19), 0 8px 20px 0 rgba(0,0,0,.37);
+    width: 480px;
 }
 .appointment-img img{
     height: 400px;
@@ -405,6 +406,7 @@ form input{
     outline: none;
     background-color: rgba(175, 169, 169, 0.363);
     border: none;
+    border-radius: 3px;
     padding: 10px;
 }
 .field, .field-1, .field-2, .field-3{
@@ -414,6 +416,7 @@ form input{
     width: 260px;
     background-color: rgba(175, 169, 169, 0.363);
     border: none;
+    cursor: pointer;
     outline: none;
     padding: 10px;
 }
@@ -440,4 +443,99 @@ option{
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
     background-color: rgb(67, 187, 235);
+    color: white;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3% 15% 3% 15%;
+}
+.footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+    font-size: 13px;
+}
+.footer-contact .fa{
+    color: rgb(67, 187, 235);
+    margin-right: 5px;
+    cursor: pointer;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1% 15% 2% 15%;
+}
+.media .icons .icon .fa-brands{
+    color: rgb(67, 187, 235);
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .links, .nav-end{
+        display: none;
+    }
+    .boxes{
+        margin-top: 0%;
+        flex-flow: wrap;
+        margin-bottom: 20%;
+        height: 50%;
+    }
+    .f-container{
+        height: 130vh;
+
+    }
+    .body-container{
+        flex-wrap: wrap;
+        padding: 40px 50px 20px 50px;
+    }
+    .box-4{
+        padding-top: 40px;
+    }
+    .teams{
+        flex-wrap: wrap;
+
+    }
+    .team-1{
+        margin-top: 10px;
+    }
+    .pricing-boxes{
+        flex-wrap: wrap;
+    }
+    .pricing-box-1, .pricing-box-2{
+        margin-bottom: 10px;
+    }
+    .contact-us, .footer, .companies, .subscribe{
+        flex-wrap: wrap;
+    }
+    .locations{
+        flex-flow: wrap;
+        margin-top: 200%;
+    }
+    .appointment{
+        flex-wrap: wrap;
+        margin: 0% 2% 0% 8%;
+        width: 400px;
+        height: 450px;
+    }
+    .appointment-img{
+        display: none;
+    }
+    .pricing-container{
+        margin: 0% 0% 0% 15%;
+        align-items: center;
+        justify-content: center;
+    }
+    .pricing-content{
+        text-align: center;
+        justify-content: center;
+        margin: 0% 0% 0% 0%;
+        align-items: center;
+    }
+}
+
