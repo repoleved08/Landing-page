@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: system-ui, sans-serif;
 }
+body{
+    background-color: rgba(0, 0, 0, .08);
+}
 .f-container{
     background-image: url(./images/hero.png);
     background-size: cover;
@@ -13,6 +16,7 @@
     background-position: center;
     height: 102vh;
     position: relative;
+    z-index: 1;
 }
 .f-container::before{
     background-color: rgba(0, 0, 0, 0.37);
@@ -21,7 +25,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    
+    z-index: -1;
 }
 .container{
     margin: 0% 13% 0% 13%;
@@ -157,4 +161,40 @@ nav{
 }
 .box-coonteent h2, .box-conteent h2, .box-content h2{
     margin-top: 15px;
+}
+.body-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 18%;
+    background-color: white;
+    width: 100%;
+    padding: 100px 250px 100px 250px;
+}
+.box-4 .icon{
+    padding-bottom: 20px;
+}
+.box-4 h3{
+    padding-top: 10px;
+}
+.hanging-text{
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+.teams{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 15% 5% 15%;
+    align-items: center;
+}
+.team-1{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    padding: 40px;
+}
+.person-1 img{
+    width: 100px;
 }
