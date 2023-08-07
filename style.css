@@ -116,7 +116,7 @@ nav {
 }
 
 .heading h1 {
-    font-size: 70px;
+    font-size: 3rem;
     color: white;
 }
 
@@ -366,7 +366,23 @@ input:focus{
 .pricing-box-2 p{
     margin-bottom: 10px;
 }
-
+.pricing-box-3{
+    border: 1px solid rgb(34, 34, 75);
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+    
+}
+.pricing-box-3 h2, p{
+    text-align: center;
+}
+.pricing-box-3 h2{
+    padding: 0px 0px 20px 0px;
+    margin-top: 50px;
+}
+.pricing-box-3 p{
+    margin-bottom: 10px;
+}
 /* Locations */
 .locations{
     background-color: rgb(34, 34, 75);
@@ -480,6 +496,10 @@ option{
     cursor: pointer;
 }
 @media screen and (max-width: 900px) {
+    .heading h1 {
+        font-size: 1.8rem;
+        color: white;
+    }
     .links, .nav-end{
         display: none;
     }
@@ -488,6 +508,7 @@ option{
         flex-flow: wrap;
         margin-bottom: 20%;
         height: 50%;
+        width: 80%;
     }
     .f-container{
         height: 130vh;
@@ -511,25 +532,57 @@ option{
     .pricing-boxes{
         flex-wrap: wrap;
     }
-    .pricing-box-1, .pricing-box-2{
+    .pricing-box-1{
         margin-bottom: 10px;
         margin-left: 20px;
+        margin-left: 3rem;
+    }
+    .pricing-box-2{
+        margin-bottom: 10px;
+        margin-left: 3rem;
+    }
+    .pricing-box-3{
+        margin-bottom: 10px;
+        margin-left: 3rem;
     }
     .contact-us, .footer, .companies, .subscribe{
         flex-wrap: wrap;
     }
+    .teams {
+        display: flex;
+        justify-content: space-between;
+       
+        align-items: center;
+    }
+    
+    .team-1 {
+        background-color: white;
+        text-align: center;
+        align-items: center;
+        width: 250px;
+        padding: 40px;
+        border: 1px solid grey;
+    }
+    .companies {
+        display: flex;
+        flex-direction: row;
+        margin: 0% 10% 2% 10%;
+        justify-content: space-between;
+    }
     .subscribe{
-        margin: 0% 10% 5% 10%;
+        margin: 0% 4% 5% 4%;
     }
     .locations{
         flex-flow: wrap;
-        margin-top: 200%;
+        margin-top: 250%;
+        margin-left: 1.5rem;
     }
     .appointment{
         flex-wrap: wrap;
-        margin: 0% 2% 0% 8%;
-        width: 400px;
+        margin: 0% 2% 0% 3%;
+        width: 340px;
         height: 450px;
+        margin-left: 1.2rem;
     }
     .appointment-img{
         display: none;
@@ -542,14 +595,11 @@ option{
         margin-left: 35px;
     }
     .pricing-container{
-        margin: 0% 0% 0% 15%;
+        margin: 0% 0% 0% 0%;
         align-items: center;
         justify-content: center;
     }
     .pricing-content{
-        text-align: center;
-        justify-content: center;
-        margin: 0% 0% 0% 0%;
         align-items: center;
     }
     .box-1 {
@@ -577,6 +627,17 @@ option{
         height: 185px;
         margin-left: 10px;
         background-color: rgb(67, 187, 235);
+    }
+    .map img{
+        width: 100%;
+    }
+    .locations{
+        background-color: rgb(34, 34, 75);
+        display: flex;
+        padding: 6% 5% 2% 5%;
+        justify-content: space-between;
+        height: 500px;
+        width: 330px;
     }
     
 }
