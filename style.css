@@ -541,8 +541,12 @@ option{
         margin-bottom: 10px;
         margin-left: 3rem;
     }
-    .contact-us, .footer, .companies, .subscribe{
+    .contact-us, .companies, .subscribe{
         flex-wrap: wrap;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
     }
     .teams {
         display: flex;
