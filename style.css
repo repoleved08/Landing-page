@@ -160,7 +160,7 @@ nav {
 .boxes {
     display: flex;
     justify-content: space-between;
-    margin-top: 34%;
+    margin-top: 38%;
 }
 
 .box-1 {
@@ -237,7 +237,9 @@ nav {
 .person-1 img {
     width: 100px;
 }
-
+.star{
+    margin-top: 5px;
+}
 .companies {
     display: flex;
     flex-direction: row;
@@ -308,6 +310,7 @@ input:focus{
     border: 1px solid blue;
     padding: 30px;
     border-radius: 5px;
+    background-color: #fff;
 }
 .pricing-box-1 h2, p{
     text-align: center;
@@ -492,6 +495,7 @@ option{
     }
     .body-container{
         flex-wrap: wrap;
+        margin-top: 750px;
         padding: 40px 50px 20px 50px;
     }
     .box-4{
@@ -509,9 +513,13 @@ option{
     }
     .pricing-box-1, .pricing-box-2{
         margin-bottom: 10px;
+        margin-left: 20px;
     }
     .contact-us, .footer, .companies, .subscribe{
         flex-wrap: wrap;
+    }
+    .subscribe{
+        margin: 0% 10% 5% 10%;
     }
     .locations{
         flex-flow: wrap;
@@ -526,6 +534,13 @@ option{
     .appointment-img{
         display: none;
     }
+    .contact-btn{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    form{
+        margin-left: 35px;
+    }
     .pricing-container{
         margin: 0% 0% 0% 15%;
         align-items: center;
@@ -537,5 +552,32 @@ option{
         margin: 0% 0% 0% 0%;
         align-items: center;
     }
+    .box-1 {
+        padding: 40px;
+        margin: 700px 0px 10px 10px;
+        width: 350px;
+        height: 185px;
+        background-color: rgb(231, 235, 231);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    }
+    
+    .box-2 {
+        padding: 40px;
+        width: 350px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        height: 185px;
+        background-color: rgb(240, 243, 240);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    }
+    
+    .box-3 {
+        padding: 40px;
+        width: 350px;
+        height: 185px;
+        margin-left: 10px;
+        background-color: rgb(67, 187, 235);
+    }
+    
 }
 
