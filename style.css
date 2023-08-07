@@ -165,7 +165,6 @@ nav {
 
 .box-1 {
     padding: 40px;
-    width: 350px;
     height: 185px;
     background-color: rgb(231, 235, 231);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
@@ -173,7 +172,6 @@ nav {
 
 .box-2 {
     padding: 40px;
-    width: 350px;
     margin-left: 10px;
     height: 185px;
     background-color: rgb(240, 243, 240);
@@ -182,13 +180,12 @@ nav {
 
 .box-3 {
     padding: 40px;
-    width: 350px;
     height: 185px;
     margin-left: 10px;
     background-color: rgb(67, 187, 235);
 }
 
-.box-coonteent h2,
+.box-conteent h2,
 .box-conteent h2,
 .box-content h2 {
     margin-top: 15px;
@@ -223,13 +220,14 @@ nav {
     justify-content: space-between;
     margin: 5% 20% 10% 20%;
     align-items: center;
+    gap: 10px;
 }
 
 .team-1 {
     background-color: white;
     text-align: center;
     align-items: center;
-    width: 250px;
+   
     padding: 40px;
     border: 1px solid grey;
 }
@@ -504,14 +502,12 @@ option{
         display: none;
     }
     .boxes{
-        margin-top: 0%;
+        margin-top: -70%;
         flex-flow: wrap;
         margin-bottom: 20%;
-        height: 50%;
-        width: 80%;
     }
     .f-container{
-        height: 130vh;
+        height: 100vh;
 
     }
     .body-container{
@@ -604,8 +600,7 @@ option{
     }
     .box-1 {
         padding: 40px;
-        margin: 700px 0px 10px 10px;
-        width: 350px;
+        margin: 1000px 0px 10px 10px;
         height: 185px;
         background-color: rgb(231, 235, 231);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
@@ -613,7 +608,6 @@ option{
     
     .box-2 {
         padding: 40px;
-        width: 350px;
         margin-bottom: 10px;
         margin-left: 10px;
         height: 185px;
@@ -623,7 +617,6 @@ option{
     
     .box-3 {
         padding: 40px;
-        width: 350px;
         height: 185px;
         margin-left: 10px;
         background-color: rgb(67, 187, 235);
